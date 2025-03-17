@@ -10,3 +10,139 @@ body {
     margin: 0;
 
 }
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-size: .875rem;
+}
+
+label {
+    color: #02A28F;
+    font-size: .8rem;
+}
+
+.background-green {
+    background-color: #02A28F;
+    color: #FFFF;
+}
+
+.text-gray {
+    color: #616161;
+}
+
+#navbar {
+    padding: 1rem 9.7rem;
+}
+
+.container {
+    display: grid;
+    padding: 3.2rem 9.6rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.container-position1>img {
+    margin: -.6rem -1.5rem;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-position2 {
+    grid-area: 2 / 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: .8rem;
+    padding-top: .8rem;
+    align-items: center;
+}
+
+.title-post {
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.title-post>a {
+    color: #FFFF;
+}
+
+.post-item {
+    
+    border-radius: .6rem;
+    height: 58vh;
+    box-shadow: 0 0.5rem 0.4rem 0.4rem #EEEEEE;
+}
+
+.post-item>div {
+    padding:.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.grid-item-post>img {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.position2 {
+    grid-area: 2 / 1;
+}
+
+.container-article {
+    margin-top: 1.1rem;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: .6rem;
+    box-shadow: 0 0.5rem 0.4rem 0.4rem #EEEEEE;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-article>div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.container-article>div>p {
+    margin: 0;
+}
+
+.container-article>div>p:first-child {
+    font-weight: 700;
+}
+
+.container-article>div>p:last-child {
+    font-size: .7rem;
+}
